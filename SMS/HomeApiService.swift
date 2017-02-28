@@ -7,13 +7,23 @@
 //
 
 import Foundation
+import Alamofire
 
-class HomeApiService{
+class HomeApiService : HomeServiceInterface{
     
-    func getHomeData(_ callBack : @escaping([HomeResponse]) -> Void){
-        let indicator = IndicatorResponse(linkImage: "https://abc.com", name: "tayloswift")
-        let homeRespnse = ["mainSlide" : ["https://image.com","https://image.com"],"indicator" : [indicator]]
+    let httpRequest = HttpRequest(config: nil)
+    
+    func getHomeApi(callBack : @escaping (HttpJsonDataResponse) -> Void){
         
+        httpRequest.getRequest(stringUrl: Domain.domain.rawValue + ApiUrl.homeUrl.rawValue){
+            (data) in
+                callBack(data!)
+        }
     }
-    
+    func getHomeEventApi(callBack: @escaping (HttpJsonDataResponse) -> Void) {
+        httpRequest.getRequest(stringUrl: Domain.domain.rawValue + ApiUrl.eventUrl.rawValue){
+            (data) in
+            callBack(data!)
+        }
+    }
 }

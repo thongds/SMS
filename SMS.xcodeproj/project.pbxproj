@@ -7,16 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2AA14C1E62C23900F8A54D /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2AA14B1E62C23900F8A54D /* HttpRequest.swift */; };
+		5C3AAA2C1E599B1600CC0502 /* NewSongCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3AAA2B1E599B1600CC0502 /* NewSongCollectionViewController.swift */; };
+		5C3AAA2E1E599B3A00CC0502 /* HostSongCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3AAA2D1E599B3900CC0502 /* HostSongCollectionViewController.swift */; };
+		5C3ADB7B1E5942D300746DA0 /* HomeResponseByCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3ADB7A1E5942D300746DA0 /* HomeResponseByCategory.swift */; };
+		5C479AD71E62F1EF0005A494 /* HttpJsonDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C479AD61E62F1EF0005A494 /* HttpJsonDataResponse.swift */; };
 		5C4FBE2D1E231EFD00A15AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FBE2C1E231EFD00A15AEE /* AppDelegate.swift */; };
 		5C4FBE341E231EFD00A15AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4FBE331E231EFD00A15AEE /* Assets.xcassets */; };
 		5C4FBE371E231EFD00A15AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4FBE351E231EFD00A15AEE /* LaunchScreen.storyboard */; };
 		5C4FBE3F1E2321B000A15AEE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FBE3E1E2321B000A15AEE /* HomeViewController.swift */; };
 		5C50D1F41E2664E40025F0D6 /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50D1F31E2664E40025F0D6 /* HomeResponse.swift */; };
 		5C50D1F61E266BB00025F0D6 /* HomeApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50D1F51E266BB00025F0D6 /* HomeApiService.swift */; };
+		5C515F8F1E5D2C6A004C8C94 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C515F8E1E5D2C6A004C8C94 /* CategoryCollectionViewController.swift */; };
+		5C515F911E5D2CB8004C8C94 /* HomeCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C515F901E5D2CB8004C8C94 /* HomeCategoryCollectionViewCell.swift */; };
+		5C515F941E5D3BE6004C8C94 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C515F931E5D3BE6004C8C94 /* BaseCollectionViewCell.swift */; };
+		5C5CFE331E588FBD00BF8CAA /* ApiUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CFE321E588FBD00BF8CAA /* ApiUrl.swift */; };
+		5C5CFE361E58938000BF8CAA /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CFE351E58938000BF8CAA /* Domain.swift */; };
+		5C6AEBDE1E572D5000B1F065 /* HomePresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AEBDD1E572D5000B1F065 /* HomePresent.swift */; };
+		5C6DFD001E6566D800B4A607 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DFCFF1E6566D800B4A607 /* ErrorMessage.swift */; };
+		5CB3234A1E6129D5002F1503 /* HomeServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB323491E6129D5002F1503 /* HomeServiceInterface.swift */; };
+		5CB3234D1E612D65002F1503 /* HomePresentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3234C1E612D65002F1503 /* HomePresentTest.swift */; };
+		5CC0D2F01E5E7E4D00B9F4AC /* HomeResponseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D2EF1E5E7E4D00B9F4AC /* HomeResponseTest.swift */; };
 		5CF517E21E24767400FE7156 /* MainFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF517E11E24767400FE7156 /* MainFooter.swift */; };
+		5CF8AC2D1E656B3900477A13 /* HttpRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF8AC2C1E656B3900477A13 /* HttpRequestTest.swift */; };
+		5CF8AC311E65723000477A13 /* HomeApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF8AC301E65723000477A13 /* HomeApiService.swift */; };
+		5CF8AC331E65853500477A13 /* HomeServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF8AC321E65853500477A13 /* HomeServiceMock.swift */; };
+		5CF8AC351E65B91200477A13 /* MessageToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF8AC341E65B91200477A13 /* MessageToView.swift */; };
+		C8642D8FBE15F37007AA53DA /* Pods_SMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F988F5D711CC82DB77EFBA00 /* Pods_SMS.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5C515F9F1E5D757D004C8C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4FBE211E231EFD00A15AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C4FBE281E231EFD00A15AEE;
+			remoteInfo = SMS;
+		};
+		5CF8AC271E656B2400477A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4FBE211E231EFD00A15AEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C4FBE281E231EFD00A15AEE;
+			remoteInfo = SMS;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5C2AA14B1E62C23900F8A54D /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		5C3AAA2B1E599B1600CC0502 /* NewSongCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSongCollectionViewController.swift; sourceTree = "<group>"; };
+		5C3AAA2D1E599B3900CC0502 /* HostSongCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostSongCollectionViewController.swift; sourceTree = "<group>"; };
+		5C3ADB7A1E5942D300746DA0 /* HomeResponseByCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeResponseByCategory.swift; sourceTree = "<group>"; };
+		5C479AD61E62F1EF0005A494 /* HttpJsonDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpJsonDataResponse.swift; sourceTree = "<group>"; };
 		5C4FBE291E231EFD00A15AEE /* SMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4FBE2C1E231EFD00A15AEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C4FBE331E231EFD00A15AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,11 +67,46 @@
 		5C4FBE3E1E2321B000A15AEE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5C50D1F31E2664E40025F0D6 /* HomeResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
 		5C50D1F51E266BB00025F0D6 /* HomeApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeApiService.swift; sourceTree = "<group>"; };
+		5C515F8E1E5D2C6A004C8C94 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		5C515F901E5D2CB8004C8C94 /* HomeCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C515F931E5D3BE6004C8C94 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C515F9A1E5D757D004C8C94 /* SMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5CFE321E588FBD00BF8CAA /* ApiUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiUrl.swift; sourceTree = "<group>"; };
+		5C5CFE351E58938000BF8CAA /* Domain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
+		5C6AEBDD1E572D5000B1F065 /* HomePresent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresent.swift; sourceTree = "<group>"; };
+		5C6DFCFF1E6566D800B4A607 /* ErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		5CB323491E6129D5002F1503 /* HomeServiceInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeServiceInterface.swift; sourceTree = "<group>"; };
+		5CB3234C1E612D65002F1503 /* HomePresentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresentTest.swift; sourceTree = "<group>"; };
+		5CC0D2EF1E5E7E4D00B9F4AC /* HomeResponseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeResponseTest.swift; sourceTree = "<group>"; };
 		5CF517E11E24767400FE7156 /* MainFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFooter.swift; sourceTree = "<group>"; };
+		5CF8AC221E656B2400477A13 /* SMSAsycTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSAsycTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF8AC261E656B2400477A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF8AC2C1E656B3900477A13 /* HttpRequestTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestTest.swift; sourceTree = "<group>"; };
+		5CF8AC301E65723000477A13 /* HomeApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeApiService.swift; sourceTree = "<group>"; };
+		5CF8AC321E65853500477A13 /* HomeServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeServiceMock.swift; sourceTree = "<group>"; };
+		5CF8AC341E65B91200477A13 /* MessageToView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageToView.swift; sourceTree = "<group>"; };
+		8A01880E75CE38BF07F42368 /* Pods-SMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMS/Pods-SMS.release.xcconfig"; sourceTree = "<group>"; };
+		D6B9AF854CF94EE23249E157 /* Pods-SMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMS/Pods-SMS.debug.xcconfig"; sourceTree = "<group>"; };
+		F988F5D711CC82DB77EFBA00 /* Pods_SMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5C4FBE261E231EFD00A15AEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8642D8FBE15F37007AA53DA /* Pods_SMS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C515F971E5D757D004C8C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF8AC1F1E656B2400477A13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,11 +116,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02340610F1CDA42F863CA219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F988F5D711CC82DB77EFBA00 /* Pods_SMS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		440128D1ACB5192DB0047A0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6B9AF854CF94EE23249E157 /* Pods-SMS.debug.xcconfig */,
+				8A01880E75CE38BF07F42368 /* Pods-SMS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C2AA14A1E62C11500F8A54D /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				5C479AD51E62F1BB0005A494 /* Data */,
+				5C479AD41E62F1AE0005A494 /* Request */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+		5C2AA14D1E62C59600F8A54D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5CF8AC301E65723000477A13 /* HomeApiService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		5C3AAA251E5995C000CC0502 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = layouts;
+			sourceTree = "<group>";
+		};
+		5C3AAA261E5995C700CC0502 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				5C515F921E5D2CBC004C8C94 /* home */,
+				5C515F951E5D3BEB004C8C94 /* base */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		5C479AD41E62F1AE0005A494 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				5C2AA14B1E62C23900F8A54D /* HttpRequest.swift */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		5C479AD51E62F1BB0005A494 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5C479AD61E62F1EF0005A494 /* HttpJsonDataResponse.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		5C4FBE201E231EFD00A15AEE = {
 			isa = PBXGroup;
 			children = (
 				5C4FBE2B1E231EFD00A15AEE /* SMS */,
+				5C515F9B1E5D757D004C8C94 /* SMSTests */,
+				5CF8AC231E656B2400477A13 /* SMSAsycTests */,
 				5C4FBE2A1E231EFD00A15AEE /* Products */,
+				440128D1ACB5192DB0047A0B /* Pods */,
+				02340610F1CDA42F863CA219 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +198,8 @@
 			isa = PBXGroup;
 			children = (
 				5C4FBE291E231EFD00A15AEE /* SMS.app */,
+				5C515F9A1E5D757D004C8C94 /* SMSTests.xctest */,
+				5CF8AC221E656B2400477A13 /* SMSAsycTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,31 +207,34 @@
 		5C4FBE2B1E231EFD00A15AEE /* SMS */ = {
 			isa = PBXGroup;
 			children = (
-				5C4FBE411E2326B700A15AEE /* application */,
-				5C50D1F11E2664680025F0D6 /* presenters */,
-				5C50D1F01E2664600025F0D6 /* services */,
-				5C50D1F21E2664A00025F0D6 /* models */,
-				5C4FBE401E2321B900A15AEE /* views */,
+				5C4FBE411E2326B700A15AEE /* Application */,
+				5C50D1F11E2664680025F0D6 /* Presenters */,
+				5C50D1F01E2664600025F0D6 /* Services */,
+				5C50D1F21E2664A00025F0D6 /* Models */,
+				5C4FBE401E2321B900A15AEE /* Views */,
+				5C5CFE341E588FC400BF8CAA /* Enum */,
 			);
 			path = SMS;
 			sourceTree = "<group>";
 		};
-		5C4FBE401E2321B900A15AEE /* views */ = {
+		5C4FBE401E2321B900A15AEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5C3AAA261E5995C700CC0502 /* cell */,
+				5C3AAA251E5995C000CC0502 /* layouts */,
 				5C50D1F71E266D110025F0D6 /* viewController */,
 				5CF517E31E24767A00FE7156 /* viewHelper */,
 				5C4FBE421E2326C800A15AEE /* asset */,
 			);
-			name = views;
+			name = Views;
 			sourceTree = "<group>";
 		};
-		5C4FBE411E2326B700A15AEE /* application */ = {
+		5C4FBE411E2326B700A15AEE /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				5C4FBE2C1E231EFD00A15AEE /* AppDelegate.swift */,
 			);
-			name = application;
+			name = Application;
 			sourceTree = "<group>";
 		};
 		5C4FBE421E2326C800A15AEE /* asset */ = {
@@ -95,35 +247,128 @@
 			name = asset;
 			sourceTree = "<group>";
 		};
-		5C50D1F01E2664600025F0D6 /* services */ = {
+		5C50D1F01E2664600025F0D6 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				5C50D1F51E266BB00025F0D6 /* HomeApiService.swift */,
+				5C2AA14A1E62C11500F8A54D /* Http */,
+				5CB323481E6129A5002F1503 /* Home Service */,
 			);
-			name = services;
+			name = Services;
 			sourceTree = "<group>";
 		};
-		5C50D1F11E2664680025F0D6 /* presenters */ = {
+		5C50D1F11E2664680025F0D6 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				5C5CFE311E588A2A00BF8CAA /* HomePresent */,
 			);
-			name = presenters;
+			name = Presenters;
 			sourceTree = "<group>";
 		};
-		5C50D1F21E2664A00025F0D6 /* models */ = {
+		5C50D1F21E2664A00025F0D6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				5C50D1F31E2664E40025F0D6 /* HomeResponse.swift */,
+				5C3ADB7A1E5942D300746DA0 /* HomeResponseByCategory.swift */,
 			);
-			name = models;
+			name = Models;
 			sourceTree = "<group>";
 		};
 		5C50D1F71E266D110025F0D6 /* viewController */ = {
 			isa = PBXGroup;
 			children = (
-				5C4FBE3E1E2321B000A15AEE /* HomeViewController.swift */,
+				5C515F8D1E5D2C2D004C8C94 /* homeView */,
 			);
 			name = viewController;
+			sourceTree = "<group>";
+		};
+		5C515F8D1E5D2C2D004C8C94 /* homeView */ = {
+			isa = PBXGroup;
+			children = (
+				5C4FBE3E1E2321B000A15AEE /* HomeViewController.swift */,
+				5C515F8E1E5D2C6A004C8C94 /* CategoryCollectionViewController.swift */,
+			);
+			name = homeView;
+			sourceTree = "<group>";
+		};
+		5C515F921E5D2CBC004C8C94 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				5C515F901E5D2CB8004C8C94 /* HomeCategoryCollectionViewCell.swift */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		5C515F951E5D3BEB004C8C94 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				5C515F931E5D3BE6004C8C94 /* BaseCollectionViewCell.swift */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		5C515F9B1E5D757D004C8C94 /* SMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C2AA14D1E62C59600F8A54D /* Services */,
+				5CB3234E1E612E5A002F1503 /* Mocks */,
+				5CB3234B1E612D40002F1503 /* Presenters */,
+				5CC0D2EE1E5E7E2500B9F4AC /* Models */,
+			);
+			path = SMSTests;
+			sourceTree = "<group>";
+		};
+		5C5CFE311E588A2A00BF8CAA /* HomePresent */ = {
+			isa = PBXGroup;
+			children = (
+				5C6AEBDD1E572D5000B1F065 /* HomePresent.swift */,
+				5C3AAA2B1E599B1600CC0502 /* NewSongCollectionViewController.swift */,
+				5C3AAA2D1E599B3900CC0502 /* HostSongCollectionViewController.swift */,
+			);
+			name = HomePresent;
+			sourceTree = "<group>";
+		};
+		5C5CFE341E588FC400BF8CAA /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				5C5CFE321E588FBD00BF8CAA /* ApiUrl.swift */,
+				5C5CFE351E58938000BF8CAA /* Domain.swift */,
+				5C6DFCFF1E6566D800B4A607 /* ErrorMessage.swift */,
+				5CF8AC341E65B91200477A13 /* MessageToView.swift */,
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		5CB323481E6129A5002F1503 /* Home Service */ = {
+			isa = PBXGroup;
+			children = (
+				5C50D1F51E266BB00025F0D6 /* HomeApiService.swift */,
+				5CB323491E6129D5002F1503 /* HomeServiceInterface.swift */,
+			);
+			name = "Home Service";
+			sourceTree = "<group>";
+		};
+		5CB3234B1E612D40002F1503 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				5CB3234C1E612D65002F1503 /* HomePresentTest.swift */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		5CB3234E1E612E5A002F1503 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF8AC321E65853500477A13 /* HomeServiceMock.swift */,
+			);
+			name = Mocks;
+			sourceTree = "<group>";
+		};
+		5CC0D2EE1E5E7E2500B9F4AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0D2EF1E5E7E4D00B9F4AC /* HomeResponseTest.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		5CF517E31E24767A00FE7156 /* viewHelper */ = {
@@ -134,6 +379,31 @@
 			name = viewHelper;
 			sourceTree = "<group>";
 		};
+		5CF8AC231E656B2400477A13 /* SMSAsycTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF8AC2E1E656B9D00477A13 /* Http */,
+				5CF8AC2F1E656BC000477A13 /* Plist */,
+			);
+			path = SMSAsycTests;
+			sourceTree = "<group>";
+		};
+		5CF8AC2E1E656B9D00477A13 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				5CF8AC2C1E656B3900477A13 /* HttpRequestTest.swift */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+		5CF8AC2F1E656BC000477A13 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				5CF8AC261E656B2400477A13 /* Info.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +411,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C4FBE3B1E231EFD00A15AEE /* Build configuration list for PBXNativeTarget "SMS" */;
 			buildPhases = (
+				5DCE434BF759D08C5E2A31A1 /* [CP] Check Pods Manifest.lock */,
 				5C4FBE251E231EFD00A15AEE /* Sources */,
 				5C4FBE261E231EFD00A15AEE /* Frameworks */,
 				5C4FBE271E231EFD00A15AEE /* Resources */,
+				08A3C7F7AAC7F03361F6AD15 /* [CP] Embed Pods Frameworks */,
+				34721AAAE066CE6E54F05DCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,6 +426,42 @@
 			productName = SMS;
 			productReference = 5C4FBE291E231EFD00A15AEE /* SMS.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5C515F991E5D757D004C8C94 /* SMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C515FA11E5D757D004C8C94 /* Build configuration list for PBXNativeTarget "SMSTests" */;
+			buildPhases = (
+				5C515F961E5D757D004C8C94 /* Sources */,
+				5C515F971E5D757D004C8C94 /* Frameworks */,
+				5C515F981E5D757D004C8C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C515FA01E5D757D004C8C94 /* PBXTargetDependency */,
+			);
+			name = SMSTests;
+			productName = SMSTests;
+			productReference = 5C515F9A1E5D757D004C8C94 /* SMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CF8AC211E656B2400477A13 /* SMSAsycTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF8AC291E656B2400477A13 /* Build configuration list for PBXNativeTarget "SMSAsycTests" */;
+			buildPhases = (
+				5CF8AC1E1E656B2400477A13 /* Sources */,
+				5CF8AC1F1E656B2400477A13 /* Frameworks */,
+				5CF8AC201E656B2400477A13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF8AC281E656B2400477A13 /* PBXTargetDependency */,
+			);
+			name = SMSAsycTests;
+			productName = SMSAsycTests;
+			productReference = 5CF8AC221E656B2400477A13 /* SMSAsycTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,6 +477,18 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 89TP3C25P2;
 						ProvisioningStyle = Automatic;
+					};
+					5C515F991E5D757D004C8C94 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 89TP3C25P2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C4FBE281E231EFD00A15AEE;
+					};
+					5CF8AC211E656B2400477A13 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 89TP3C25P2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C4FBE281E231EFD00A15AEE;
 					};
 				};
 			};
@@ -185,6 +506,8 @@
 			projectRoot = "";
 			targets = (
 				5C4FBE281E231EFD00A15AEE /* SMS */,
+				5C515F991E5D757D004C8C94 /* SMSTests */,
+				5CF8AC211E656B2400477A13 /* SMSAsycTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,22 +522,130 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C515F981E5D757D004C8C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF8AC201E656B2400477A13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08A3C7F7AAC7F03361F6AD15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMS/Pods-SMS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34721AAAE066CE6E54F05DCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMS/Pods-SMS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCE434BF759D08C5E2A31A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5C4FBE251E231EFD00A15AEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C515F911E5D2CB8004C8C94 /* HomeCategoryCollectionViewCell.swift in Sources */,
+				5C515F941E5D3BE6004C8C94 /* BaseCollectionViewCell.swift in Sources */,
 				5C50D1F41E2664E40025F0D6 /* HomeResponse.swift in Sources */,
 				5C4FBE2D1E231EFD00A15AEE /* AppDelegate.swift in Sources */,
+				5C6DFD001E6566D800B4A607 /* ErrorMessage.swift in Sources */,
+				5C515F8F1E5D2C6A004C8C94 /* CategoryCollectionViewController.swift in Sources */,
+				5C2AA14C1E62C23900F8A54D /* HttpRequest.swift in Sources */,
+				5C5CFE331E588FBD00BF8CAA /* ApiUrl.swift in Sources */,
 				5C50D1F61E266BB00025F0D6 /* HomeApiService.swift in Sources */,
 				5C4FBE3F1E2321B000A15AEE /* HomeViewController.swift in Sources */,
+				5C3ADB7B1E5942D300746DA0 /* HomeResponseByCategory.swift in Sources */,
+				5C3AAA2C1E599B1600CC0502 /* NewSongCollectionViewController.swift in Sources */,
+				5C479AD71E62F1EF0005A494 /* HttpJsonDataResponse.swift in Sources */,
+				5C6AEBDE1E572D5000B1F065 /* HomePresent.swift in Sources */,
 				5CF517E21E24767400FE7156 /* MainFooter.swift in Sources */,
+				5CF8AC351E65B91200477A13 /* MessageToView.swift in Sources */,
+				5C5CFE361E58938000BF8CAA /* Domain.swift in Sources */,
+				5C3AAA2E1E599B3A00CC0502 /* HostSongCollectionViewController.swift in Sources */,
+				5CB3234A1E6129D5002F1503 /* HomeServiceInterface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C515F961E5D757D004C8C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF8AC331E65853500477A13 /* HomeServiceMock.swift in Sources */,
+				5CB3234D1E612D65002F1503 /* HomePresentTest.swift in Sources */,
+				5CF8AC311E65723000477A13 /* HomeApiService.swift in Sources */,
+				5CC0D2F01E5E7E4D00B9F4AC /* HomeResponseTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF8AC1E1E656B2400477A13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF8AC2D1E656B3900477A13 /* HttpRequestTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C515FA01E5D757D004C8C94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C4FBE281E231EFD00A15AEE /* SMS */;
+			targetProxy = 5C515F9F1E5D757D004C8C94 /* PBXContainerItemProxy */;
+		};
+		5CF8AC281E656B2400477A13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C4FBE281E231EFD00A15AEE /* SMS */;
+			targetProxy = 5CF8AC271E656B2400477A13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5C4FBE351E231EFD00A15AEE /* LaunchScreen.storyboard */ = {
@@ -321,6 +752,7 @@
 		};
 		5C4FBE3C1E231EFD00A15AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B9AF854CF94EE23249E157 /* Pods-SMS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89TP3C25P2;
@@ -335,6 +767,7 @@
 		};
 		5C4FBE3D1E231EFD00A15AEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A01880E75CE38BF07F42368 /* Pods-SMS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89TP3C25P2;
@@ -344,6 +777,62 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sip.SMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5C515FA21E5D757D004C8C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 89TP3C25P2;
+				INFOPLIST_FILE = SMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sip.SMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS.app/SMS";
+			};
+			name = Debug;
+		};
+		5C515FA31E5D757D004C8C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 89TP3C25P2;
+				INFOPLIST_FILE = SMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sip.SMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS.app/SMS";
+			};
+			name = Release;
+		};
+		5CF8AC2A1E656B2400477A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 89TP3C25P2;
+				INFOPLIST_FILE = SMSAsycTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sip.SMSAsycTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS.app/SMS";
+			};
+			name = Debug;
+		};
+		5CF8AC2B1E656B2400477A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 89TP3C25P2;
+				INFOPLIST_FILE = SMSAsycTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sip.SMSAsycTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS.app/SMS";
 			};
 			name = Release;
 		};
@@ -367,6 +856,23 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		5C515FA11E5D757D004C8C94 /* Build configuration list for PBXNativeTarget "SMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C515FA21E5D757D004C8C94 /* Debug */,
+				5C515FA31E5D757D004C8C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF8AC291E656B2400477A13 /* Build configuration list for PBXNativeTarget "SMSAsycTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF8AC2A1E656B2400477A13 /* Debug */,
+				5CF8AC2B1E656B2400477A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

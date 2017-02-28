@@ -6,13 +6,49 @@
 	<dict>
 		<key>SMS.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>SMSAsycTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SMSTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>SMSnormalTest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>5C4FBE281E231EFD00A15AEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C515F991E5D757D004C8C94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C6DFD041E65694700B4A607</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5CF8AC211E656B2400477A13</key>
 		<dict>
 			<key>primary</key>
 			<true/>
